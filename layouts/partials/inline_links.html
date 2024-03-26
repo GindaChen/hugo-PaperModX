@@ -2,10 +2,10 @@
   {{/* use `.GetPage "archives"` causes term page to get the root archives */}}
   {{/* trim relURL prefix because .RelPermalink includes the path of base url */}}
   {{ $archivesPath := printf "/%sarchives" (strings.TrimPrefix (relURL "") .RelPermalink) }}
-  {{- with .GetPage $archivesPath -}}
+  <!-- {{- with .GetPage $archivesPath -}}
     <span><a href="{{ .RelPermalink }}">Archives</a></span>
   {{- end -}}
   {{- with .OutputFormats.Get "rss" -}}
     <span><a href="{{ .Permalink }}" target="_blank">RSS</a></span>
-  {{- end -}}
+  {{- end -}} -->
 </div>

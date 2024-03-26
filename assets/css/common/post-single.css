@@ -661,3 +661,11 @@ h6:hover .anchor {
 .tweet-ref blockquote a {
     text-decoration: none;
 }
+
+.view-history-button {
+    float: right;
+    position: relative;
+    z-index: 2;
+    padding: 1em 0 0 5px;
+}
+

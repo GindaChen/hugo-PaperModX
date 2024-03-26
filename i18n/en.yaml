@@ -34,3 +34,6 @@
 
 - id: comments
   translation: "Comments"
+
+- id: view_history
+  translation: "view history"

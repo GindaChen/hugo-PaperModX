@@ -34,3 +34,6 @@
 
 - id: comments
   translation: "评论"
+
+- id: view_history
+  translation: "版本记录"
